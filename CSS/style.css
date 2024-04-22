@@ -1,0 +1,150 @@
+/* -----------------------------------------IMPORT----------------------------------------- */
+/* Bebas Neu */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* -----------------------------------------VARRIABLES----------------------------------------- */
+:root{
+
+    /* ---------------BG COLORS---------------*/
+    --primary-BgColor:black;
+    --secondary-BgColor:rgb(186, 186, 186);
+
+    /* ---------------COLORS ---------------*/
+    --primary-Color: white;
+    --secondary-Color: black;
+
+
+    /* --------------- FONTS ---------------*/
+
+    /* ------FONT-SIZES------ */
+    --primary-font-size: 25px;
+    --secondary-font-size: 24px;
+    --title-font-size: 100px;
+    --text-font-size: 30px;
+    --link-font-size: 20px;
+    /* ------FONT-FAMILY------ */
+    --primary-font-family:"Bebas Neue", sans-serif;
+    --secondary-font-family:"Bebas Neue", sans-serif;;
+    --font-family:"Bebas Neue", sans-serif;
+
+    /* ------FONT-WEIGHT ------ */
+    --primary-font-weight:800;
+    --secondary-font-weight:600;
+    --font-weight:400;
+}
+
+/* -----------------------------------------INISIALISATION----------------------------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: var(--primary-font-size);
+    font-family: var(--primary-font-family);
+    font-weight: var(--primary-font-weight) ;
+}
+
+header , footer{
+    background-color: var(--primary-BgColor);
+    color: var(--primary-Color);
+    height: fit-content;
+    padding: 20px 0;
+}
+section{
+    height: 300px;
+    background-color: rebeccapurple;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgb(0, 89, 255);
+    color: black;
+    border-radius: 7px;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(34, 111, 255);
+}
+
+.bi{
+    height: 30px;
+    width: 30px;
+}
+/* -----------------------------------------HEADER----------------------------------------- */
+
+.header{
+    padding: 20px 0;
+}
+.company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.company img{
+    width: 50px;
+    height: 50px;
+}
+
+.company h1{
+    font-size: 40px;
+}
+
+
+
+.user-balance__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.nav-bar__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-bar__container a{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 25px;
+}
+.nav-bar__container a:hover{
+    background-color: gold;
+}
+
+
+
+
+
+/* -----------------------------------------FOOTER----------------------------------------- */
+
+/* -----------------------------------------HOME PAGE ----------------------------------------- */
+/* -----------------------------------------SHOP PAGE----------------------------------------- */
+/* -----------------------------------------CART PAGE----------------------------------------- */
+/* -----------------------------------------REDEEM CODE----------------------------------------- */
+
+
+
+/* -----------------------------------------MY ORDERS----------------------------------------- */
+/* -----------------------------------------MY GIFTS----------------------------------------- */
+/* -----------------------------------------MY PROFILE ----------------------------------------- */
